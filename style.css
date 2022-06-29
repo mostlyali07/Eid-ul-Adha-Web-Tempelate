@@ -10,15 +10,35 @@
 
 .main-section {
     background-image: url(/images/background.png);
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #12667e;
+    background-size: 85%;
+    background-color: #ffffff;
+    height: 800px;
 }
 
-.main-section div h1 {
-    color: #fff;
+.first h1 {
+    color: #223462;
     font-family: "PinkChicken";
     text-align: center;
-    font-size: 85px;
+    font-size: 75px;
+    animation: fadeIn 3s;
+}
+
+.first p {
+    color: #223462;
+    font-family: "PinkChicken";
+    text-align: center;
+    font-size: 26px;
+    animation: fadeIn 5s;
+    padding: 0px 100px 0px 100px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
