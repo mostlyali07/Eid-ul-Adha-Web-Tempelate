@@ -3,12 +3,22 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "PinkChicken";
+    src: url(/fonts/PinkChicken-Regular.ttf);
+}
+
 .main-section {
     background-image: url(/images/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #12667e;
-    height: 800px;
-    width: auto;
+}
+
+.main-section div h1 {
+    color: #fff;
+    font-family: "PinkChicken";
+    text-align: center;
+    font-size: 85px;
 }
