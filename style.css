@@ -23,7 +23,6 @@
     text-align: center;
     font-size: 75px;
     animation: fadeIn 4s;
-    padding-top: 7%;
 }
 
 .first p {
@@ -33,6 +32,10 @@
     font-size: 26px;
     animation: fadeIn 5s;
     padding: 0px 27% 0px 27%;
+}
+
+.first {
+    text-align: center;
 }
 
 .animals-pics {
@@ -52,7 +55,7 @@
 @keyframes fadeInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-70px);
+        transform: translateX(-100px);
     }
     100% {
         opacity: 1;
