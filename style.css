@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: 85%;
     background-color: #ffffff;
-    height: 800px;
+    height: auto;
 }
 
 .first h1 {
@@ -22,7 +22,8 @@
     font-family: "PinkChicken";
     text-align: center;
     font-size: 75px;
-    animation: fadeIn 3s;
+    animation: fadeIn 4s;
+    padding-top: 7%;
 }
 
 .first p {
@@ -31,7 +32,12 @@
     text-align: center;
     font-size: 26px;
     animation: fadeIn 5s;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 27% 0px 27%;
+}
+
+.animals-pics {
+    text-align: center;
+    animation: fadeInLeft 8s;
 }
 
 @keyframes fadeIn {
@@ -40,5 +46,16 @@
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-70px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
