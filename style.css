@@ -43,6 +43,13 @@
     animation: fadeInLeft 8s;
 }
 
+#demo {
+    font-family: "PinkChicken";
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
