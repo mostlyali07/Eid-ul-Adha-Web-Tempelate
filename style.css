@@ -36,6 +36,7 @@
 
 .first {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .animals-pics {
@@ -48,6 +49,13 @@
     text-align: center;
     color: #fff;
     font-size: 26px;
+}
+
+.col-md-4 h3 {
+    font-family: "PinkChicken";
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
 }
 
 @keyframes fadeIn {
